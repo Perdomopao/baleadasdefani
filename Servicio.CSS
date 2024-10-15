@@ -1,0 +1,110 @@
+  /* Estilos personalizados */
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    /* Carrusel de fondo de video */
+    #video-carousel {
+      position: relative;
+      height: 100vh;
+      width: 100%;
+      overflow: hidden;
+    }
+
+    #video-carousel video {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      z-index: -1;
+    }
+
+    .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.5);
+      z-index: 1;
+    }
+
+    .carousel-caption {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      z-index: 2;
+      text-align: center;
+    }
+
+    .carousel-caption h1 {
+      font-size: 4rem;
+      font-weight: bold;
+      text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
+    }
+
+    .carousel-caption p {
+      font-size: 1.5rem;
+      margin-top: 20px;
+    }
+
+    .navbar {
+      background-color: powderblue;
+      padding: 20px;
+    }
+
+    .navbar-brand {
+      font-size: 2rem;
+      font-weight: bold;
+      color: black;
+    }
+
+    .navbar-nav .nav-link {
+      color: white;
+      font-size: 1.2rem;
+      padding: 10px 20px;
+    }
+
+    .navbar-nav .nav-link:hover {
+      color: black;
+      border-bottom: 2px solid #f8b400;
+    }
+
+    .card {
+      transition: transform 0.3s ease;
+      margin-bottom: 30px;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+    }
+
+    .service-section {
+      padding: 80px 0;
+      background-color: #f8f9fa;
+    }
+
+    .service-section h2 {
+      font-size: 3rem;
+      text-align: center;
+      color: #f8b400;
+      margin-bottom: 40px;
+    }
+
+   
+
+
+.footer{
+    background-color:black;
+    width: 100%;
+    height: 150px;
+    
+}
+
+
